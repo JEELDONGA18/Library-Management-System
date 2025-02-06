@@ -1,0 +1,17 @@
+Implementing a Library Management System
+
+Objective: Design and implement a basic Library Management System that utilizes stacks, queues, and singly linked lists to manage book loans and returns efficiently.
+
+Requirements:
+
+Book Management:
+Use a singly linked list to manage the collection of books in the library. Each book should have the following attributes: Book ID, Title, Author, Availability Status (available or checked out)
+
+Checkout System:
+Implement a stack to manage the book checkout process. When a book is checked out Push the Book ID onto the stack. Update the Availability Status of the book to checked out.
+
+Return System:
+Implement a queue to manage the return process. When a book is returned: Enqueue the Book ID into the queue. Update the Availability Status of the book to available.
+
+Functionality:
+Allow the user to perform the following operations: Add a new book to the library (add to the linked list),Checkout a book (pop from the stack and update status),Return a book(dequeue from the queue and update status),Display the current list of books, their status, and the books currently checked out (using the linked list).
